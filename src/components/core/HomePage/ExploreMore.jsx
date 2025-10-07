@@ -30,10 +30,10 @@ const ExploreMore = () => {
       {/* Explore more section */}
       <div>
         <div className="text-4xl font-semibold text-center my-10">
-          Unlock the
-          <HighlightText text={"Power of Code"} />
+          Empower your
+          <HighlightText text={"Ideas with Code"} />
           <p className="text-center text-richblack-300 text-lg font-semibold mt-1">
-            Learn to Build Anything You Can Imagine
+            Explore.Learn.Build.
           </p>
         </div>
       </div>

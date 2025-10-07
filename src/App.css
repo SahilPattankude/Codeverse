@@ -5,6 +5,7 @@
 html,
 body {
   overflow-x: hidden;
+  
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -90,7 +91,7 @@ details > summary::-webkit-details-marker {
   border: 2px solid;
   border-image-slice: 1;
   border-width: 2px;
-  border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+border-image-source: linear-gradient(to right, #12d8fa, #1fa2ff);
   background: linear-gradient(
     111.93deg,
     rgba(14, 26, 45, 0.24) -1.4%,

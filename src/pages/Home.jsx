@@ -32,16 +32,14 @@ function Home() {
 
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
-          Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
+          Transform Ideas into Reality with
+          <HighlightText text={"Coding"} />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-          With our online coding courses, you can learn at your own pace, from
-          anywhere in the world, and get access to a wealth of resources,
-          including hands-on projects, quizzes, and personalized feedback from
-          instructors.
+          Turn learning into Achievement with Codverse:All in one Coding Platform,
+          where courses are designed for flexibility,hands-on practice, and mentorship. 
         </div>
 
         {/* CTA Buttons */}
@@ -72,13 +70,13 @@ function Home() {
             position={"lg:flex-row"}
             heading={
               <div className="text-4xl font-semibold">
-                Unlock your
-                <HighlightText text={"coding potential"} /> with our online
-                courses.
+                Level up your
+                <HighlightText text={"coding skills"} /> with flexible online
+                learning.
               </div>
             }
             subheading={
-              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
+              "Learn form industry professionals with years of coding experience and a passion for teaching."
             }
             ctabtn1={{
               btnText: "Try it Yourself",
@@ -102,12 +100,12 @@ function Home() {
             position={"lg:flex-row-reverse"}
             heading={
               <div className="w-[100%] text-4xl font-semibold lg:w-[50%]">
-                Start
-                <HighlightText text={"coding in seconds"} />
+                Begin your
+                <HighlightText text={"coding journey today !"} />
               </div>
             }
             subheading={
-              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
+              "Dive straight into coding—our interactive platform lets you build real projects from day one."
             }
             ctabtn1={{
               btnText: "Continue Lesson",
@@ -153,14 +151,12 @@ function Home() {
           {/* Job that is in Demand - Section 1 */}
           <div className="mb-10 mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
-              Get the skills you need for a{" "}
-              <HighlightText text={"job that is in demand."} />
+             Step into career with{" "}
+              <HighlightText text={"right skills in hand."} />
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
-                The modern StudyNotion is the dictates its own terms. Today, to
-                be a competitive specialist requires more than professional
-                skills.
+                Being a competitive professional today means mastering both skills and strategy.
               </div>
               <CTAButton active={true} linkto={"/signup"}>
                 <div className="">Learn More</div>
